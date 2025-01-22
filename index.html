@@ -43,6 +43,29 @@
             height: auto;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+        .office-image {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .office-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .office-images {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .office-images img {
+            flex: 1;
+            max-width: 48%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
         .contact-info {
             border: 1px solid #ccc;
             padding: 15px;
@@ -58,8 +81,8 @@
         footer a {
             color: #0073e6;
             text-decoration: none;
-            font-size: 18px; /* Larger font size */
-            font-weight: bold; /* Bold for emphasis */
+            font-size: 18px;
+            font-weight: bold;
         }
         footer a:hover {
             text-decoration: underline;
@@ -79,16 +102,12 @@
             <h2>About Us</h2>
             <p>Taylor Lam Insurance Agency is a dedicated insurance agency based in Arlington, Texas. We specialize in providing personalized insurance solutions for individuals, families, and businesses. Our goal is to ensure you have the right coverage for all aspects of your life and work.</p>
         </div>
-        <div class="section contact-info">
-            <h2>Contact Information</h2>
-            <ul>
-                <li><strong>Legal Company Name:</strong> Taylor Lam Insurance Agency</li>
-                <li><strong>State / Country of Registration:</strong> Texas, United States</li>
-                <li><strong>Office Location:</strong> 708 N Fielder Rd, Arlington, TX 76012</li>
-                <li><strong>Phone:</strong> (817) 200-6397</li>
-                <li><strong>Email:</strong> hlam@farmersagent.com</li>
-                <li><strong>Website:</strong> www.taylorlamagency.com</li>
-            </ul>
+        <div class="office-image">
+            <img src="https://raw.githubusercontent.com/35905m/HLam/main/office%20front%20.jpg" alt="Office Outside Front">
+        </div>
+        <div class="office-images">
+            <img src="https://raw.githubusercontent.com/35905m/HLam/main/office%20lobby.jpg" alt="Office Lobby">
+            <img src="https://raw.githubusercontent.com/35905m/HLam/main/office%20awards%20.jpg" alt="Office Awards">
         </div>
         <div class="section">
             <h2>Stay covered with updates from Taylor Lam Insurance Agency.</h2>
@@ -126,6 +145,17 @@
                     par.insertBefore(s, scr);
                 })(document, 'script');
             </script>
+        </div>
+        <div class="section contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+                <li><strong>Legal Company Name:</strong> Taylor Lam Insurance Agency</li>
+                <li><strong>State / Country of Registration:</strong> Texas, United States</li>
+                <li><strong>Office Location:</strong> 708 N Fielder Rd, Arlington, TX 76012</li>
+                <li><strong>Phone:</strong> (817) 200-6397</li>
+                <li><strong>Email:</strong> hlam@farmersagent.com</li>
+                <li><strong>Website:</strong> www.taylorlamagency.com</li>
+            </ul>
         </div>
     </main>
     <footer>
