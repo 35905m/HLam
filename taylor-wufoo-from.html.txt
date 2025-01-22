@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taylor's Wufoo Form</title>
+  <style>
+    /* CSS for the Wufoo form container */
+    .wufoo-form-container {
+      max-width: 1000px; /* Set the max width of the form */
+      margin: 0 auto;    /* Center the form horizontally */
+      padding: 20px;     /* Optional padding for spacing */
+    }
+
+    /* Make sure the form scales responsively */
+    .wufoo-form-container iframe {
+      width: 100%;       /* Ensure the form takes full width of the container */
+      height: 800px;     /* Adjust the height as necessary */
+      border: none;      /* Remove the border around the iframe */
+    }
+  </style>
+</head>
+<body>
+  <div class="wufoo-form-container">
+    <!-- Embedded Wufoo form -->
+    <iframe 
+      src="https://nickmartinezagency.wufoo.com/forms/slmw2j61egnitv/" 
+      frameborder="0" 
+      scrolling="no">
+    </iframe>
+  </div>
+</body>
+</html>
