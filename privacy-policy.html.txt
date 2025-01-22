@@ -37,7 +37,7 @@
         <h1>Privacy Policy</h1>
     </header>
     <main>
-        <p>At Nick Martinez Insurance Agency, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your information, particularly in relation to SMS communications.</p>
+        <p>At Taylor Lam Insurance Agency, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your information, particularly in relation to SMS communications.</p>
 
         <h2>Information We Collect</h2>
         <ul>
@@ -62,15 +62,15 @@
 
         <p>For further details, contact us at:</p>
         <address>
-            Nick Martinez Insurance Agency<br>
-            8008 Camp Bowie West #101<br>
-            Fort Worth, TX 76116<br>
-            Phone: (817) 887-9043<br>
-            Email: <a href="mailto:nmartinez3@farmersagent.com">nmartinez3@farmersagent.com</a>
+            Taylor Lam Insurance Agency<br>
+            708 N Fielder Rd<br>
+            Arlington, TX 76012<br>
+            Phone: (817) 200-6397<br>
+            Email: <a href="mailto:hlam@farmersagent.com">hlam@farmersagent.com</a>
         </address>
     </main>
     <footer>
-        <p>&copy; 2025 Nick Martinez Insurance Agency. All rights reserved.</p>
+        <p>&copy; 2025 Taylor Lam Insurance Agency. All rights reserved.</p>
     </footer>
 </body>
 </html>
