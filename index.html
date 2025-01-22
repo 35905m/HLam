@@ -33,38 +33,33 @@
         .section h2 {
             color: #0073e6;
         }
-        .profile-picture, .office-image {
+        .profile-picture {
             text-align: center;
             margin: 20px 0;
-        }
-        .profile-picture img, .office-image img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         .profile-picture img {
             border-radius: 50%;
             max-width: 150px;
-        }
-        .office-images {
-            display: flex;
-            justify-content: space-between;
-            gap: 10px;
-            margin: 20px 0;
-        }
-        .office-images img {
-            flex: 1;
-            max-width: 48%;
             height: auto;
-            border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .contact-info ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact-info ul li {
+            margin: 5px 0;
         }
         footer a {
             color: #0073e6;
             text-decoration: none;
-            font-size: 18px;
-            font-weight: bold;
+            font-size: 18px; /* Larger font size */
+            font-weight: bold; /* Bold for emphasis */
         }
         footer a:hover {
             text-decoration: underline;
@@ -84,30 +79,6 @@
             <h2>About Us</h2>
             <p>Taylor Lam Insurance Agency is a dedicated insurance agency based in Arlington, Texas. We specialize in providing personalized insurance solutions for individuals, families, and businesses. Our goal is to ensure you have the right coverage for all aspects of your life and work.</p>
         </div>
-        <div class="office-image">
-            <img src="https://raw.githubusercontent.com/35905m/HLam/main/office%20front%20.jpg" alt="Office Outside Front">
-        </div>
-        <div class="office-images">
-            <img src="https://raw.githubusercontent.com/35905m/HLam/main/office%20lobby.jpg" alt="Office Lobby">
-            <img src="https://raw.githubusercontent.com/35905m/HLam/main/office%20awards%20.jpg" alt="Office Awards">
-        </div>
-        <div class="section">
-            <h2>Stay covered with updates from Taylor Lam Insurance Agency.</h2>
-
-            
-            </p>Fill out the form below to opt-in and receive important SMS notifications:</p>    
-            <!-- Wufoo Form Embed -->
-            <div id="wufoo-form">
-                <iframe
-                    height="600"
-                    allowtransparency="true"
-                    frameborder="0"
-                    scrolling="no"
-                    style="width:100%;border:none"
-                    src="https://nickmartinezagency.wufoo.com/forms/slmw2j61egnitv/">
-                </iframe>
-            </div>
-        </div>
         <div class="section contact-info">
             <h2>Contact Information</h2>
             <ul>
@@ -118,6 +89,43 @@
                 <li><strong>Email:</strong> hlam@farmersagent.com</li>
                 <li><strong>Website:</strong> www.taylorlamagency.com</li>
             </ul>
+        </div>
+        <div class="section">
+            <h2>Stay covered with updates from Taylor Lam Insurance Agency.</h2>
+            <p>Fill out the form below to opt-in and receive important SMS notifications:</p>
+            <!-- Wufoo Form Embed -->
+            <div id="wufoo-slmw2j61egnitv">
+                Fill out my <a href="https://nickmartinezagency.wufoo.com/forms/slmw2j61egnitv">online form</a>.
+            </div>
+            <script type="text/javascript">
+                var slmw2j61egnitv;
+                (function(d, t) {
+                    var s = d.createElement(t),
+                        options = {
+                            'userName': 'nickmartinezagency',
+                            'formHash': 'slmw2j61egnitv',
+                            'autoResize': true,
+                            'height': '560',
+                            'async': true,
+                            'host': 'wufoo.com',
+                            'header': 'show',
+                            'ssl': true
+                        };
+                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'secure.wufoo.com/scripts/embed/form.js';
+                    s.onload = s.onreadystatechange = function() {
+                        var rs = this.readyState;
+                        if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                        try {
+                            slmw2j61egnitv = new WufooForm();
+                            slmw2j61egnitv.initialize(options);
+                            slmw2j61egnitv.display();
+                        } catch (e) {}
+                    };
+                    var scr = d.getElementsByTagName(t)[0],
+                        par = scr.parentNode;
+                    par.insertBefore(s, scr);
+                })(document, 'script');
+            </script>
         </div>
     </main>
     <footer>
